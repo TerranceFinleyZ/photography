@@ -1,0 +1,104 @@
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+h5 {
+  text-align: center;
+  color:deepskyblue;
+  font-size: 100px;
+  font-family: emoji;
+}
+
+p {
+  text-align: center;
+  color:hsl(0, 23%, 89%);
+  font-size: 50px;
+  padding-bottom: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT',;
+}
+.aboot {
+  margin-left: 480px;
+  width: 550px;
+  padding-top: 100px;
+}
+.abuut {
+  margin-left: 480px;
+  width: 550px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.nute {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(4, 4, 4, 0.4) 0%, rgba(0,0,0,0.40) 120%) #989898;;
+  
+}
+.flop {
+  margin-left: 630px;
+  width: 250px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.gran {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(4, 4, 4, 0.4) 0%, rgba(0,0,0,0.40) 120%) #989898;;
+}
+.abo {
+  margin-left: 480px;
+  width: 550px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+@media(max-width:740px) {
+    h4 {
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    h2:hover {
+      color: #000;
+    }
+    body {
+        display: unset;
+    }
+    p {
+      font-size: 18px;
+      padding-bottom: 100px;
+
+    }
+    .aboot {
+      margin-left: unset;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .abuut {
+      margin-left: unset;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .flop {
+      margin-left: 115px;
+      width: 150px;
+      padding-top: unset;
+      padding-bottom: unset; 
+      height: 100%;
+    }
+    .abo {
+      margin-left: unset;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
+    
+}
