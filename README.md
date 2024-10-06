@@ -1,3 +1,5 @@
-Made in Vite.js used Canva & capcut. 
+Made in Vite.js 
+
+written in Typescript used Canva & capcut. 
 
 Paid website.
